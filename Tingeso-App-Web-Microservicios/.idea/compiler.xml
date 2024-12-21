@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PBGateway" />
+        <module name="PBMyRequests" />
+        <module name="PBSimulation" />
+        <module name="PBEureka" />
+        <module name="PBConfig" />
+        <module name="PBEvaluation" />
+        <module name="PBRequest" />
+        <module name="PBClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Tingeso-App-Web-Microservicios" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PBClient" options="-parameters" />
+      <module name="PBConfig" options="-parameters" />
+      <module name="PBEureka" options="-parameters" />
+      <module name="PBEvaluation" options="-parameters" />
+      <module name="PBGateway" options="-parameters" />
+      <module name="PBMyRequests" options="-parameters" />
+      <module name="PBRequest" options="-parameters" />
+      <module name="PBSimulation" options="-parameters" />
+    </option>
+  </component>
+</project>
