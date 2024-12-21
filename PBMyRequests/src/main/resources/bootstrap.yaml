@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: PBMyRequests
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MyRequests
+    username: postgres
+    password: MyPostgre74SQL38
+  jpa:
+    hibernate:
+      ddl-auto: update
