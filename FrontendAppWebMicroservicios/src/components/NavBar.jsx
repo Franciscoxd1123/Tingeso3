@@ -16,8 +16,8 @@ export default function Navbar() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}> 
-      <AppBar position="static" sx={{ backgroundColor: "black", color: "orange" }}> 
+    <Box sx={{ flexGrow: 1,  width: '100%',}}> 
+      <AppBar position="static" sx={{ backgroundColor: "#1e2a47", color: "orange" }}> 
         <Toolbar> 
         <IconButton
           size="large"
@@ -32,10 +32,10 @@ export default function Navbar() {
           }}
           onClick={toggleDrawer(true)}
         >
-          <MenuIcon />
+          <MenuIcon sx={{ fontSize: 35 }}/>
         </IconButton>
 
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> 
+          <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}> 
             MicroPB: Sistema de Gestión de préstamos hipotecarios
           </Typography>
         </Toolbar>
